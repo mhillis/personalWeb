@@ -1,11 +1,20 @@
 body {
-    background-color: whitesmoke;
+   
+    background-color: #0d1b2a;
     margin: 0px;
+    
+}
+/*center webpage*/
+.content{
+    max-width: 800px;
+    margin: auto;
+    color: #e5e5e5
+    
     
 }
 .header {
     overflow: hidden;
-    background-color: #14213d;
+    background-color: #0d1b2a;
     padding: 20px 10px;
 }
 
@@ -33,6 +42,7 @@ body {
 .header a:hover {
     background-color: #e5e5e5;
     color:black;
+    cursor: pointer;
 }
 
 /*style active and current link*/
@@ -44,4 +54,8 @@ body {
 /*float the link section to the right*/
 .header-right {
     float: right;
+}
+
+#works {
+    display: none;
 }

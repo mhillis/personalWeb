@@ -3,27 +3,45 @@
 
 <head>
     <link rel="stylesheet" href="mystyle.css">
+    <script src="index.js"></script>
     <title>Matthew Hillis</title>
 </head>
+<div class="content">
 
-<body>
-    <div class="content">
-             <!--Header-->
-        <div class="header"> 
-        <a class="name">Matthew Hillis</a>
-         <div class="header-right">
-                <a class="active" href="#about">About</a>
-                <a href="#works">Works</a>
-                <a href="https://github.com/mhillis" rel="noopener" target="_blank">github</a>
-         </div>
+    <body>
+        <!--Header-->
+        <div class="header">
+            <a class="name">Matthew Hillis</a>
+            <div class="header-right">
+                <a  onclick="openPage('about')">About</a>
+                <a onclick="openPage('works')">Works</a>
+                <a class="active" href="https://github.com/mhillis" rel="noopener" target="_blank">github</a>
+            </div>
+
         </div> <!--Header-->
-        <div id="about"class="about-section">
+            <div id="about" class="tabcontent">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel orci consequat, porta dui eu,
+                    aliquet magna. Nunc arcu lorem, malesuada eget ante ut, vulputate fringilla ex. Aliquam at rhoncus
+                    mauris. Morbi congue turpis non mollis blandit. Vivamus et augue gravida, blandit magna sed,
+                    molestie nibh. Morbi et commodo nunc, et euismod arcu. Pellentesque consequat purus non tortor
+                    vestibulum, rhoncus placerat nibh porttitor. Sed tincidunt quis lectus quis interdum. Nulla
+                    facilisi. Sed efficitur sapien felis, vel ullamcorper turpis convallis sed.</p>
+                <p>Nulla cursus pellentesque eleifend. Proin nec scelerisque ante, et euismod nulla. Curabitur at erat
+                    semper, lobortis odio a, sodales erat. Suspendisse vitae malesuada orci. Quisque tempor et arcu eget
+                    consectetur. Proin eleifend feugiat mauris, sed cursus risus convallis ac. Aliquam erat volutpat.
+                    Aliquam id nisi et ex ornare lobortis non ut ex. Integer consequat ultrices erat, quis pretium orci
+                    pellentesque sit amet. Phasellus neque eros, interdum at accumsan quis, aliquam ac ex. Donec ac nisi
+                    semper, dapibus est dignissim, tincidunt tortor. Nulla ullamcorper purus at imperdiet tincidunt.
+                    Cras egestas sed arcu ut tempus. Ut ornare libero vitae ante dapibus, et semper libero semper. Duis
+                    facilisis sapien sed venenatis pretium. Fusce ultrices fermentum erat quis tempor.</p>
+            </div>
 
-        </div>
-        <div id="works" class="works-section">
-
-        </div>
-    </div><!--Center Content-->
-</body>
+            <div id="works" class="tabcontent">
+                <h1>My work!</h1>
+                <p>coming soon...</p>
+            </div>
+        
+    </body>
+</div><!--Center Content-->
 
 </html>
