@@ -1,9 +1,11 @@
-body{
-    background-color: whitesmoke
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+    
 }
 .header {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #14213d;
     padding: 20px 10px;
 }
 
@@ -17,22 +19,25 @@ body{
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
+    color: #e5e5e5;
 }
 /*style the name*/
 .header a.name{
     font-size: 25px;
     font-weight: bold;
+    /*makes name not be highligted on hover*/
+    pointer-events: none;
 }
 
 /*change background color on mouse over*/
 .header a:hover {
-    background-color: #ddd;
+    background-color: #e5e5e5;
     color:black;
 }
 
 /*style active and current link*/
 .header-right a.active{
-    background-color: dodgerblue;
+    background-color: #fca311;
     color:white;
 }
 
