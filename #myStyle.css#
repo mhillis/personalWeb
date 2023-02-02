@@ -36,7 +36,6 @@ body {
     font-weight: bold;
     /*makes name not be highligted on hover*/
     pointer-events: none;
-    color: #fca311;
 }
 
 /*change background color on mouse over*/
@@ -48,7 +47,7 @@ body {
 
 /*style active and current link*/
 .header-right a.active{
-    background-color: #fca311;
+   ;
     color:white;
 }
 
